@@ -59,3 +59,16 @@ uv run python -m app.main path/to/resume.pdf path/to/job_description.txt
 Each run writes a timestamped folder under `output/` (e.g.
 `output/run_20260712_143022/`) containing `result.json` — the full
 pipeline state after all 5 stages.
+
+### Try it with the sample data
+
+Sample input files are included under `sample_data/` (one `.txt`, one
+`.pdf`, to exercise both loader paths):
+
+```bash
+uv run python -m app.main sample_data/resume.txt sample_data/job_description.pdf
+```
+
+A pre-generated result from this exact command is checked in at
+`sample_output/result.json`, so you can see the expected shape of the
+output without needing a `GROQ_API_KEY` first.

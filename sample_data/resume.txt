@@ -1,0 +1,34 @@
+Priya Nair
+Software Engineer
+priya.nair@example.com | +91-98765-43210 | Bengaluru, India
+
+SUMMARY
+Backend-focused software engineer with 4 years of experience building
+REST APIs and data pipelines in Python. Comfortable owning services
+end-to-end, from design through deployment.
+
+SKILLS
+Python, Django, PostgreSQL, Docker, Git, REST API design, Unit Testing,
+Linux, Redis, CI/CD (GitHub Actions)
+
+EXPERIENCE
+
+Backend Engineer, Finlytics Pvt Ltd (2022 - Present)
+- Designed and built REST APIs in Django serving 200k+ daily requests
+- Migrated a monolithic billing service into smaller services, reducing
+  deployment time from 40 minutes to 8 minutes
+- Introduced automated test coverage reporting, raising coverage from
+  45% to 82% over six months
+- Set up CI/CD pipelines using GitHub Actions for automated testing and
+  deployment
+- Optimized slow PostgreSQL queries, cutting p95 API latency by 35%
+
+Software Engineer, CodeCraft Solutions (2020 - 2022)
+- Built internal tooling in Python to automate weekly reporting for the
+  operations team, saving roughly 10 hours of manual work per week
+- Wrote and maintained unit tests using pytest, keeping regression bugs
+  to a minimum during rapid feature development
+- Collaborated with frontend engineers to define REST API contracts
+
+EDUCATION
+B.Tech in Computer Science, RV College of Engineering (2016 - 2020)

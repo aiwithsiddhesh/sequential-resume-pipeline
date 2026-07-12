@@ -1,0 +1,91 @@
+{
+  "raw_resume": "Priya Nair\nSoftware Engineer\npriya.nair@example.com | +91-98765-43210 | Bengaluru, India\n\nSUMMARY\nBackend-focused software engineer with 4 years of experience building\nREST APIs and data pipelines in Python. Comfortable owning services\nend-to-end, from design through deployment.\n\nSKILLS\nPython, Django, PostgreSQL, Docker, Git, REST API design, Unit Testing,\nLinux, Redis, CI/CD (GitHub Actions)\n\nEXPERIENCE\n\nBackend Engineer, Finlytics Pvt Ltd (2022 - Present)\n- Designed and built REST APIs in Django serving 200k+ daily requests\n- Migrated a monolithic billing service into smaller services, reducing\n  deployment time from 40 minutes to 8 minutes\n- Introduced automated test coverage reporting, raising coverage from\n  45% to 82% over six months\n- Set up CI/CD pipelines using GitHub Actions for automated testing and\n  deployment\n- Optimized slow PostgreSQL queries, cutting p95 API latency by 35%\n\nSoftware Engineer, CodeCraft Solutions (2020 - 2022)\n- Built internal tooling in Python to automate weekly reporting for the\n  operations team, saving roughly 10 hours of manual work per week\n- Wrote and maintained unit tests using pytest, keeping regression bugs\n  to a minimum during rapid feature development\n- Collaborated with frontend engineers to define REST API contracts\n\nEDUCATION\nB.Tech in Computer Science, RV College of Engineering (2016 - 2020)\n",
+  "raw_job_description": "Backend Software Engineer\nVantara Systems - Bengaluru, India (Hybrid)\nABOUT THE ROLE\nWe are looking for a Backend Software Engineer to help build and\nscale the services powering our payments platform. You will design\nAPIs, own services in production, and work closely with product and\ndata teams.\nREQUIRED SKILLS\n- Strong proficiency in Python\n- Experience building REST APIs (Django or FastAPI)\n- Solid understanding of relational databases (PostgreSQL preferred)\n- Experience with containerization (Docker)\n- Familiarity with CI/CD pipelines\n- Experience writing automated tests\nPREFERRED SKILLS\n- Experience with Kubernetes\n- Experience with event-driven architectures (Kafka or similar)\n- Exposure to AWS or another major cloud provider\n- Experience with GraphQL\nREQUIREMENTS\n- 3+ years of professional backend development experience\n- Bachelor's degree in Computer Science or equivalent experience\n- Experience mentoring junior engineers is a plus\n- Comfortable working in a fast-paced, ambiguous environment\nWHAT YOU'LL DO\n- Design, build, and maintain backend services and REST APIs\n- Improve system reliability and performance at scale\n- Participate in code reviews and technical design discussions\n- Collaborate with cross-functional teams to ship features end-to-end\n",
+  "parsed_resume": {
+    "skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "REST API design",
+      "Unit Testing",
+      "Linux",
+      "Redis",
+      "CI/CD (GitHub Actions)"
+    ],
+    "experience_bullets": [
+      "Designed and built REST APIs in Django serving 200k+ daily requests",
+      "Migrated a monolithic billing service into smaller services, reducing deployment time from 40 minutes to 8 minutes",
+      "Introduced automated test coverage reporting, raising coverage from 45% to 82% over six months",
+      "Set up CI/CD pipelines using GitHub Actions for automated testing and deployment",
+      "Optimized slow PostgreSQL queries, cutting p95 API latency by 35%",
+      "Built internal tooling in Python to automate weekly reporting for the operations team, saving roughly 10 hours of manual work per week",
+      "Wrote and maintained unit tests using pytest, keeping regression bugs to a minimum during rapid feature development",
+      "Collaborated with frontend engineers to define REST API contracts"
+    ]
+  },
+  "parsed_job_description": {
+    "required_skills": [
+      "Strong proficiency in Python",
+      "Experience building REST APIs (Django or FastAPI)",
+      "Solid understanding of relational databases (PostgreSQL preferred)",
+      "Experience with containerization (Docker)",
+      "Familiarity with CI/CD pipelines",
+      "Experience writing automated tests"
+    ],
+    "requirements": [
+      "3+ years of professional backend development experience",
+      "Bachelor's degree in Computer Science or equivalent experience",
+      "Experience mentoring junior engineers is a plus",
+      "Comfortable working in a fast-paced, ambiguous environment"
+    ]
+  },
+  "gap_analysis": {
+    "matched_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "REST API design",
+      "Unit Testing",
+      "CI/CD (GitHub Actions)"
+    ],
+    "missing_skills": [
+      "FastAPI",
+      "Experience mentoring junior engineers"
+    ],
+    "match_score": 80
+  },
+  "tailored_resume": {
+    "tailored_bullets": [
+      "Designed and built REST APIs in Django serving 200k+ daily requests, demonstrating expertise in REST API design and Python",
+      "Optimized slow PostgreSQL queries, cutting p95 API latency by 35%, showcasing proficiency in PostgreSQL and performance optimization",
+      "Set up CI/CD pipelines using GitHub Actions for automated testing and deployment, highlighting experience with CI/CD and Python",
+      "Wrote and maintained unit tests using pytest, keeping regression bugs to a minimum during rapid feature development, emphasizing unit testing skills and Python expertise",
+      "Built internal tooling in Python to automate weekly reporting for the operations team, saving roughly 10 hours of manual work per week, and collaborated with frontend engineers to define REST API contracts, demonstrating ability to work with cross-functional teams and utilize Python and Django skills",
+      "Although I haven't worked with FastAPI, my experience with Django and REST API design has provided a solid foundation for adapting to new frameworks, and I'm excited to learn and grow in this area",
+      "While I haven't had the opportunity to formally mentor junior engineers, I've worked collaboratively with frontend engineers and other teams, and I'm eager to develop my mentoring skills and share my knowledge with others in the future"
+    ]
+  },
+  "cover_letter": {
+    "text": "Dear Hiring Manager, I am excited to apply for the Backend Software Engineer position at Vantara Systems, where I can leverage my skills in designing and building REST APIs, optimizing database performance, and collaborating with cross-functional teams to drive business growth. With a strong proficiency in Python and experience building REST APIs in Django, I am confident in my ability to adapt to new frameworks, including FastAPI. Although I haven't had the opportunity to work with FastAPI, my experience with Django and REST API design has provided a solid foundation for learning and growth. I am eager to develop my skills in this area and contribute to the development of scalable and reliable backend services. Additionally, while I haven't formally mentored junior engineers, I have worked collaboratively with frontend engineers and other teams, and I am excited to develop my mentoring skills and share my knowledge with others in the future. I am impressed by Vantara Systems' commitment to innovation and customer satisfaction, and I am excited about the opportunity to join a team that values collaboration, continuous learning, and technical excellence. Thank you for considering my application. I look forward to discussing my qualifications further."
+  },
+  "validation": {
+    "passed": true,
+    "covered_keywords": [
+      "Strong proficiency in Python",
+      "Experience building REST APIs (Django or FastAPI)",
+      "Solid understanding of relational databases (PostgreSQL preferred)",
+      "Experience with containerization (Docker)",
+      "Familiarity with CI/CD pipelines",
+      "Experience writing automated tests",
+      "3+ years of professional backend development experience",
+      "Bachelor's degree in Computer Science or equivalent experience"
+    ],
+    "missing_keywords": [
+      "Experience with containerization (Docker)"
+    ],
+    "validation_score": 90
+  }
+}
