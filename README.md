@@ -36,9 +36,9 @@ flowchart LR
 - [x] `app/config.py` — Groq API key loaded via `pydantic-settings`
 - [x] `app/loaders.py` — read resume/JD from `.txt` or `.pdf`
 - [x] `app/state.py` — Pydantic models for pipeline state
-- [ ] `app/nodes.py` — the 5 node functions
-- [ ] `app/graph.py` — builds and compiles the `StateGraph`
-- [ ] `app/main.py` — entrypoint
+- [x] `app/nodes.py` — the 5 node functions
+- [x] `app/graph.py` — builds and compiles the `StateGraph`
+- [x] `app/main.py` — entrypoint
 
 ## Setup
 
@@ -53,7 +53,9 @@ cp .env.example .env
 ## Run
 
 ```bash
-uv run python -m app.main
+uv run python -m app.main path/to/resume.pdf path/to/job_description.txt
 ```
 
-(entrypoint not yet implemented)
+Each run writes a timestamped folder under `output/` (e.g.
+`output/run_20260712_143022/`) containing `result.json` — the full
+pipeline state after all 5 stages.
