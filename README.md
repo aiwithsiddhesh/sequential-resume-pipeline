@@ -34,8 +34,8 @@ flowchart LR
 
 - [x] Project scaffolding (`pyproject.toml`, `.env` config)
 - [x] `app/config.py` — Groq API key loaded via `pydantic-settings`
-- [ ] `app/loaders.py` — read resume/JD from `.txt` or `.pdf`
-- [ ] `app/state.py` — Pydantic models for pipeline state
+- [x] `app/loaders.py` — read resume/JD from `.txt` or `.pdf`
+- [x] `app/state.py` — Pydantic models for pipeline state
 - [ ] `app/nodes.py` — the 5 node functions
 - [ ] `app/graph.py` — builds and compiles the `StateGraph`
 - [ ] `app/main.py` — entrypoint
