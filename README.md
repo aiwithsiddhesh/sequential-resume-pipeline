@@ -11,14 +11,32 @@ Five stages, run in order:
 
 1. **parse** — extract structured data (skills, experience bullets,
    requirements) from the raw resume and job description text.
+   - **In:** the raw resume text and the raw job description text.
+   - **Out:** from the resume — a list of skills and a list of experience
+     bullets. From the job description — a list of required skills and a
+     list of requirements.
 2. **gap_analysis** — compare resume skills against JD requirements;
    produce matched skills, missing skills, and a match score.
+   - **In:** the resume's skills, plus the job description's required
+     skills and requirements.
+   - **Out:** the skills that matched, the skills that are missing, and a
+     match score out of 100.
 3. **tailor** — rewrite/reorder resume bullets to emphasize what matches,
    using the gap report.
+   - **In:** the resume's original experience bullets, plus the matched
+     and missing skills from the gap analysis.
+   - **Out:** a rewritten, reordered list of experience bullets.
 4. **cover_letter** — draft a cover letter that leans on the tailored
    bullets and addresses the top gaps.
+   - **In:** the raw job description text, the tailored bullets, and the
+     missing skills.
+   - **Out:** the cover letter text.
 5. **validate** — check that the tailored output actually covers the JD's
    key terms; produces a pass/fail and score.
+   - **In:** the job description's required skills and requirements, the
+     tailored bullets, and the cover letter text.
+   - **Out:** a pass/fail flag, the key terms that are covered, the key
+     terms still missing, and a validation score out of 100.
 
 ```mermaid
 flowchart LR
